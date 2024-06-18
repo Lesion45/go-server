@@ -1,5 +1,5 @@
-# WebSocket
-This server can be used as template for your project that using client-server architecture. 
+# Server
+This server can be used as a template for your project that is based on a client-server architecture.
 ### Explanation
 The server application defines two types, Client and Hub. The server creates an instance of the Client type for each websocket connection. A Client acts as an intermediary between the websocket connection and a single instance of the Hub type. The Hub maintains a set of registered clients and broadcasts messages to the clients.
 
